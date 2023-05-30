@@ -137,19 +137,19 @@
 
     {
       "id": "product4",
-      "name": "gooday",
-      "slug": "gooday",
-      "description": "gooday kopi yang buat hari good.",
+      "name": "goodday",
+      "slug": "goodday",
+      "description": "goodday kopi yang buat hari good.",
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/products/gooday.jpg",
-        "original": "/assets/images/products/gooday.jpg"
+        "thumbnail": "/assets/images/products/goodday.jpg",
+        "original": "/assets/images/products/goodday.jpg"
       },
       "gallery": [
         {
           "id": 1,
-          "thumbnail": "/assets/images/products/gooday.jpg",
-          "original": "/assets/images/products/gooday.jpg"
+          "thumbnail": "/assets/images/products/goodday.jpg",
+          "original": "/assets/images/products/goodday.jpg"
         }
       ],
       "quantity": 70,
