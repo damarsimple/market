@@ -70,7 +70,7 @@ export default function ProductPopup() {
   const { price, basePrice, discount } = usePrice({
     amount: data.sale_price ? data.sale_price : data.price,
     baseAmount: data.price,
-    currencyCode: 'USD',
+    currencyCode: 'IDR',
   });
   const variations = getVariations(data.variations);
   const { slug, image, name, unit, description, gallery, tag, quantity } = data;

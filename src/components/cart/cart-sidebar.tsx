@@ -18,7 +18,7 @@ export default function CartSidebar() {
   const { items, total, isEmpty, resetCart } = useCart();
   const { price: cartTotal } = usePrice({
     amount: total,
-    currencyCode: 'USD',
+    currencyCode: 'IDR',
   });
   return (
     <div className="flex flex-col justify-between w-full h-full">
