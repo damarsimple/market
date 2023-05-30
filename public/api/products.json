@@ -1,2093 +1,1047 @@
 [
-
-  {
-
-    "id": "product1",
-
-    "name": "beras",
-
-    "slug": "beras",
-
-    "description": "beras pilihan dari sawah yang dijaga kualitasnya.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/beras.jpg",
-
-      "original": "/assets/images/products/beras.jpg"
-
-    },
-
-    "gallery": [
-
-      {
-
+    {
+      "id": "product1",
+      "name": "beras",
+      "slug": "beras",
+      "description": "beras pilihan dari sawah yang dijaga kualitasnya.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/beras.jpg",
-
         "original": "/assets/images/products/beras.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product2",
-
-    "name": "deodoran_nivea",
-
-    "slug": "deodoran_nivea",
-
-    "description": "deodoran anti kuning di ketiak dan wangi 24jam.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/deodoran_nivea.jpg",
-
-      "original": "/assets/images/products/deodoran_nivea.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/beras.jpg",
+          "original": "/assets/images/products/beras.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product2",
+      "name": "deodoran_nivea",
+      "slug": "deodoran_nivea",
+      "description": "deodoran anti kuning di ketiak dan wangi 24jam.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/deodoran_nivea.jpg",
-
         "original": "/assets/images/products/deodoran_nivea.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product3",
-
-    "name": "frestea",
-
-    "slug": "frestea",
-
-    "description": "frestea madu bikin seger dari panas kota.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/frestea.jpg",
-
-      "original": "/assets/images/products/frestea.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/deodoran_nivea.jpg",
+          "original": "/assets/images/products/deodoran_nivea.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product3",
+      "name": "frestea",
+      "slug": "frestea",
+      "description": "frestea madu bikin seger dari panas kota.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/frestea.jpg",
-
         "original": "/assets/images/products/frestea.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product4",
-
-    "name": "goodday",
-
-    "slug": "goodday",
-
-    "description": "goodday kopi yang buat hari good.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/goodday.jpg",
-
-      "original": "/assets/images/products/goodday.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/frestea.jpg",
+          "original": "/assets/images/products/frestea.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product4",
+      "name": "gooday",
+      "slug": "gooday",
+      "description": "gooday kopi yang buat hari good.",
+      "image": {
         "id": 1,
-
-        "thumbnail": "/assets/images/products/goodday.jpg",
-
-        "original": "/assets/images/products/goodday.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
+        "thumbnail": "/assets/images/products/gooday.jpg",
+        "original": "/assets/images/products/gooday.jpg"
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product6",
-
-    "name": "indomie goreng",
-
-    "slug": "indomi",
-
-    "description": "indomie goreng.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/indomi.jpg",
-
-      "original": "/assets/images/products/indomi.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/gooday.jpg",
+          "original": "/assets/images/products/gooday.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product6",
+      "name": "indomie goreng",
+      "slug": "indomi",
+      "description": "indomie goreng.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/indomi.jpg",
-
         "original": "/assets/images/products/indomi.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product7",
-
-    "name": "indomie rendang",
-
-    "slug": "indomie_rendang",
-
-    "description": "indomie rendang sensasi masakan padang.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/indomie_rendang.jpg",
-
-      "original": "/assets/images/products/indomie_rendang.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/indomi.jpg",
+          "original": "/assets/images/products/indomi.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product7",
+      "name": "indomie rendang",
+      "slug": "indomie_rendang",
+      "description": "indomie rendang sensasi masakan padang.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/indomie_rendang.jpg",
-
         "original": "/assets/images/products/indomie_rendang.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product8",
-
-    "name": "kaos kaki",
-
-    "slug": "kaoskaki",
-
-    "description": "terbuat dari kain pilihan.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/kaoskaki.jpg",
-
-      "original": "/assets/images/products/kaoskaki.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/indomie_rendang.jpg",
+          "original": "/assets/images/products/indomie_rendang.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product8",
+      "name": "kaos kaki",
+      "slug": "kaoskaki",
+      "description": "terbuat dari kain pilihan.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/kaoskaki.jpg",
-
         "original": "/assets/images/products/kaoskaki.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product9",
-
-    "name": "kaos kaki sekolah",
-
-    "slug": "kaoskaki_sklh",
-
-    "description": "kaos kaki dari kain pilihan.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/kaoskaki_sklh.jpg",
-
-      "original": "/assets/images/products/kaoskaki_sklh.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/kaoskaki.jpg",
+          "original": "/assets/images/products/kaoskaki.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product9",
+      "name": "kaos kaki sekolah",
+      "slug": "kaoskaki_sklh",
+      "description": "kaos kaki dari kain pilihan.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/kaoskaki_sklh.jpg",
-
         "original": "/assets/images/products/kaoskaki_sklh.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product10",
-
-    "name": "kertas",
-
-    "slug": "kertas",
-
-    "description": "mengisi kekosongan bukumu.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/kertas.jpg",
-
-      "original": "/assets/images/products/kertas.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/kaoskaki_sklh.jpg",
+          "original": "/assets/images/products/kaoskaki_sklh.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product10",
+      "name": "kertas",
+      "slug": "kertas",
+      "description": "mengisi kekosongan bukumu.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/kertas.jpg",
-
         "original": "/assets/images/products/kertas.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product11",
-
-    "name": "kripik gethuk",
-
-    "slug": "kripik_gethuk",
-
-    "description": "kripiknya orang indonesia.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/kripik_gethuk.jpg",
-
-      "original": "/assets/images/products/kripik_gethuk.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/kertas.jpg",
+          "original": "/assets/images/products/kertas.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product11",
+      "name": "kripik gethuk",
+      "slug": "kripik_gethuk",
+      "description": "kripiknya orang indonesia.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/kripik_gethuk.jpg",
-
         "original": "/assets/images/products/kripik_gethuk.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product12",
-
-    "name": "mama lemon",
-
-    "slug": "mama_lemon",
-
-    "description": "membersikan kotoran sampai kinclong.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/mama_lemon.jpg",
-
-      "original": "/assets/images/products/mama_lemon.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/kripik_gethuk.jpg",
+          "original": "/assets/images/products/kripik_gethuk.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product12",
+      "name": "mama lemon",
+      "slug": "mama_lemon",
+      "description": "membersikan kotoran sampai kinclong.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/mama_lemon.jpg",
-
         "original": "/assets/images/products/mama_lemon.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product13",
-
-    "name": "Parfum gatsby",
-
-    "slug": "parfum_gatsby",
-
-    "description": "Membuat harimu pede. Harum Seharian.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/parfum_gatsby.jpg",
-
-      "original": "/assets/images/products/parfum_gatsby.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/mama_lemon.jpg",
+          "original": "/assets/images/products/mama_lemon.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product13",
+      "name": "Parfum gatsby",
+      "slug": "parfum_gatsby",
+      "description": "Membuat harimu pede. Harum Seharian.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/parfum_gatsby.jpg",
-
         "original": "/assets/images/products/parfum_gatsby.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product14",
-
-    "name": "Pembalut Charm",
-
-    "slug": "pembalut_charm",
-
-    "description": "Ayo SADARI Setelah Menstruasi.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/pembalut_charm.jpg",
-
-      "original": "/assets/images/products/pembalut_charm.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/parfum_gatsby.jpg",
+          "original": "/assets/images/products/parfum_gatsby.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product14",
+      "name": "Pembalut Charm",
+      "slug": "pembalut_charm",
+      "description": "Ayo SADARI Setelah Menstruasi.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/pembalut_charm.jpg",
-
         "original": "/assets/images/products/pembalut_charm.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product15",
-
-    "name": "Pepsodent",
-
-    "slug": "pepsodent",
-
-    "description": "Siap menjalani hari dengan mulut adem dan nafas segar.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/pepsodent.jpg",
-
-      "original": "/assets/images/products/pepsodent.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/pembalut_charm.jpg",
+          "original": "/assets/images/products/pembalut_charm.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product15",
+      "name": "Pepsodent",
+      "slug": "pepsodent",
+      "description": "Siap menjalani hari dengan mulut adem dan nafas segar.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/pepsodent.jpg",
-
         "original": "/assets/images/products/pepsodent.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product16",
-
-    "name": "Pringles",
-
-    "slug": "pringles",
-
-    "description": "kripik enak untuk mengumpul bersama teman teman.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/pringles.jpg",
-
-      "original": "/assets/images/products/pringles.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/pepsodent.jpg",
+          "original": "/assets/images/products/pepsodent.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product16",
+      "name": "Pringles",
+      "slug": "pringles",
+      "description": "kripik enak untuk mengumpul bersama teman teman.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/pringles.jpg",
-
         "original": "/assets/images/products/pringles.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product17",
-
-    "name": "Rumput laut panggang",
-
-    "slug": "rumputlaut_panggang",
-
-    "description": "asin,enak,gurih,maknyoss.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/rumputlaut_panggang.jpg",
-
-      "original": "/assets/images/products/rumputlaut_panggang.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/pringles.jpg",
+          "original": "/assets/images/products/pringles.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product17",
+      "name": "Rumput laut panggang",
+      "slug": "rumputlaut_panggang",
+      "description": "asin,enak,gurih,maknyoss.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/rumputlaut_panggang.jpg",
-
         "original": "/assets/images/products/rumputlaut_panggang.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product18",
-
-    "name": "Sabun Biore",
-
-    "slug": "sabun_biore",
-
-    "description": "Fashion yang lagi happening, ya Biore.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/sabun_biore.jpg",
-
-      "original": "/assets/images/products/sabun_biore.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/rumputlaut_panggang.jpg",
+          "original": "/assets/images/products/rumputlaut_panggang.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product18",
+      "name": "Sabun Biore",
+      "slug": "sabun_biore",
+      "description": "Fashion yang lagi happening, ya Biore.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/sabun_biore.jpg",
-
         "original": "/assets/images/products/sabun_biore.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product19",
-
-    "name": "Soklin liquid",
-
-    "slug": "soklin_liquid",
-
-    "description": "hadir dengan kandungan 50% extra konsentrat. Power clean action membuat pakaian bersih menyeluruh dan bebas bau dan apek.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/soklin_liquid.jpg",
-
-      "original": "/assets/images/products/soklin_liquid.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/sabun_biore.jpg",
+          "original": "/assets/images/products/sabun_biore.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product19",
+      "name": "Soklin liquid",
+      "slug": "soklin_liquid",
+      "description": "hadir dengan kandungan 50% extra konsentrat. Power clean action membuat pakaian bersih menyeluruh dan bebas bau dan apek.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/soklin_liquid.jpg",
-
         "original": "/assets/images/products/soklin_liquid.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product20",
-
-    "name": "Sprite",
-
-    "slug": "sprit",
-
-    "description": "Obey Your Thirst.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/sprit.jpg",
-
-      "original": "/assets/images/products/sprit.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/soklin_liquid.jpg",
+          "original": "/assets/images/products/soklin_liquid.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product20",
+      "name": "Sprite",
+      "slug": "sprit",
+      "description": "Obey Your Thirst.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/sprit.jpg",
-
         "original": "/assets/images/products/sprit.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product21",
-
-    "name": "Minyak Goreng Sunco",
-
-    "slug": "sunco",
-
-    "description": "minyak jernih yang bisa diminum.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/sunco.jpg",
-
-      "original": "/assets/images/products/sunco.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/sprit.jpg",
+          "original": "/assets/images/products/sprit.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product21",
+      "name": "Minyak Goreng Sunco",
+      "slug": "sunco",
+      "description": "minyak jernih yang bisa diminum.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/sunco.jpg",
-
         "original": "/assets/images/products/sunco.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product22",
-
-    "name": "Teh celup sosro",
-
-    "slug": "teh_celup",
-
-    "description": "Apapun, enaknya minum Teh Sosro.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/teh_celup.jpg",
-
-      "original": "/assets/images/products/teh_celup.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/sunco.jpg",
+          "original": "/assets/images/products/sunco.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product22",
+      "name": "Teh celup sosro",
+      "slug": "teh_celup",
+      "description": "Apapun, enaknya minum Teh Sosro.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/teh_celup.jpg",
-
         "original": "/assets/images/products/teh_celup.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-
-
-  {
-
-    "id": "product23",
-
-    "name": "Telur 1/2kg",
-
-    "slug": "telur",
-
-    "description": "BErasal dari ayam pilihan.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/telur.jpg",
-
-      "original": "/assets/images/products/telur.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/teh_celup.jpg",
+          "original": "/assets/images/products/teh_celup.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product23",
+      "name": "Telur 1/2kg",
+      "slug": "telur",
+      "description": "BErasal dari ayam pilihan.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/telur.jpg",
-
         "original": "/assets/images/products/telur.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  },
-
-  
-
-
-
-  {
-
-    "id": "product23",
-
-    "name": "MonTiss 1000 lembar",
-
-    "slug": "tissue_besar",
-
-    "description": "tisue family friendly.",
-
-    "image": {
-
-      "id": 1,
-
-      "thumbnail": "/assets/images/products/tissue_besar.jpg",
-
-      "original": "/assets/images/products/tissue_besar.jpg"
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/telur.jpg",
+          "original": "/assets/images/products/telur.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
     },
+    
 
-    "gallery": [
-
-      {
-
+    {
+      "id": "product24",
+      "name": "MonTiss 1000 lembar",
+      "slug": "tissue_besar",
+      "description": "tisue family friendly.",
+      "image": {
         "id": 1,
-
         "thumbnail": "/assets/images/products/tissue_besar.jpg",
-
         "original": "/assets/images/products/tissue_besar.jpg"
-
-      }
-
-    ],
-
-    "quantity": 70,
-
-    "price": 2.74,
-
-    "sale_price": 2.64,
-
-    "unit": "1 each",
-
-    "tag": [
-
-      {
-
-        "id": 1,
-
-        "name": "Fresh food",
-
-        "slug": "fresh-food"
-
       },
-
-      {
-
-        "id": 2,
-
-        "name": "Organic",
-
-        "slug": "organic"
-
-      },
-
-      {
-
-        "id": 3,
-
-        "name": "Cilantro",
-
-        "slug": "cilantro"
-
-      },
-
-      {
-
-        "id": 4,
-
-        "name": "Dry Food",
-
-        "slug": "dry-food"
-
-      }
-
-    ]
-
-  }
-
-  
-
-  
-
-
-
+      "gallery": [
+        {
+          "id": 1,
+          "thumbnail": "/assets/images/products/tissue_besar.jpg",
+          "original": "/assets/images/products/tissue_besar.jpg"
+        }
+      ],
+      "quantity": 70,
+      "price": 2.74,
+      "sale_price": 2.64,
+      "unit": "1 each",
+      "tag": [
+        {
+          "id": 1,
+          "name": "Fresh food",
+          "slug": "fresh-food"
+        },
+        {
+          "id": 2,
+          "name": "Organic",
+          "slug": "organic"
+        },
+        {
+          "id": 3,
+          "name": "Cilantro",
+          "slug": "cilantro"
+        },
+        {
+          "id": 4,
+          "name": "Dry Food",
+          "slug": "dry-food"
+        }
+      ]
+    }
+    
+    
 
 
 ]

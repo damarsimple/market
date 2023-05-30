@@ -1,29 +1,19 @@
 [
   {
-    "id": "pbs1",
-    "name": "Fresh Green Leaf Lettuce",
-    "slug": "fresh-green-leaf-lettuce",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+    "id": "product9",
+    "name": "kaos kaki sekolah",
+    "slug": "kaoskaki_sklh",
+    "description": "kaos kaki dari kain pilihan.",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-1.png",
-      "original": "/assets/images/products/p-1-m.png"
+      "thumbnail": "/assets/images/products/kaoskaki_sklh.jpg",
+      "original": "/assets/images/products/kaoskaki_sklh.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-1-1.png",
-        "original": "/assets/images/products/p-1-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-1-2.png",
-        "original": "/assets/images/products/p-1-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-1-3.png",
-        "original": "/assets/images/products/p-1-3.png"
+        "thumbnail": "/assets/images/products/kaoskaki_sklh.jpg",
+        "original": "/assets/images/products/kaoskaki_sklh.jpg"
       }
     ],
     "quantity": 70,
@@ -53,36 +43,28 @@
       }
     ]
   },
+  
+
   {
-    "id": "pbs2",
-    "name": "Leafy Romaine Mixed Lettuce",
-    "slug": "leafy-romaine-mixed-lettuce",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+    "id": "product10",
+    "name": "kertas",
+    "slug": "kertas",
+    "description": "mengisi kekosongan bukumu.",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-2.png",
-      "original": "/assets/images/products/p-2-m.png"
+      "thumbnail": "/assets/images/products/kertas.jpg",
+      "original": "/assets/images/products/kertas.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-2-1.png",
-        "original": "/assets/images/products/p-2-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-2-2.png",
-        "original": "/assets/images/products/p-2-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-2-3.png",
-        "original": "/assets/images/products/p-2-3.png"
+        "thumbnail": "/assets/images/products/kertas.jpg",
+        "original": "/assets/images/products/kertas.jpg"
       }
     ],
     "quantity": 70,
     "price": 2.74,
-    "sale_price": 2.50,
+    "sale_price": 2.64,
     "unit": "1 each",
     "tag": [
       {
@@ -107,272 +89,27 @@
       }
     ]
   },
+
   {
-    "id": "pbs3",
-    "name": "Fresh Express Iceberg Garden Salad Blend",
-    "slug": "fresh-express-iceberg-garden-salad-blend",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+    "id": "product11",
+    "name": "kripik gethuk",
+    "slug": "kripik_gethuk",
+    "description": "kripiknya orang indonesia.",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-3.png",
-      "original": "/assets/images/products/p-3-m.png"
+      "thumbnail": "/assets/images/products/kripik_gethuk.jpg",
+      "original": "/assets/images/products/kripik_gethuk.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-3-1.png",
-        "original": "/assets/images/products/p-3-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-3-2.png",
-        "original": "/assets/images/products/p-3-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-3-3.png",
-        "original": "/assets/images/products/p-3-3.png"
+        "thumbnail": "/assets/images/products/kripik_gethuk.jpg",
+        "original": "/assets/images/products/kripik_gethuk.jpg"
       }
     ],
     "quantity": 70,
-    "price": null,
-    "sale_price": null,
-    "unit": "1 Bag",
-    "tag": [
-      {
-        "id": 1,
-        "name": "Fresh food",
-        "slug": "fresh-food"
-      },
-      {
-        "id": 2,
-        "name": "Organic",
-        "slug": "organic"
-      },
-      {
-        "id": 3,
-        "name": "Cilantro",
-        "slug": "cilantro"
-      },
-      {
-        "id": 4,
-        "name": "Dry Food",
-        "slug": "dry-food"
-      }
-    ],
-    "product_type": "variable",
-    "max_price": 40,
-    "min_price": 25,
-    "variations": [
-      {
-        "id": 8,
-        "attribute_id": 3,
-        "value": "12oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 9,
-        "attribute_id": 3,
-        "value": "24oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 10,
-        "attribute_id": 3,
-        "value": "36oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      }
-    ],
-    "variation_options": [
-      {
-        "id": 247,
-        "title": "12oz",
-        "price": 35,
-        "sale_price": null,
-        "quantity": "10",
-        "is_disable": 0,
-        "sku": "200101",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "12oz"
-          }
-        ]
-      },
-      {
-        "id": 248,
-        "title": "24oz",
-        "price": 35,
-        "sale_price": 25,
-        "quantity": "35",
-        "is_disable": 0,
-        "sku": "200102",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "24oz"
-          }
-        ]
-      },
-      {
-        "id": 249,
-        "title": "36oz",
-        "price": 40,
-        "sale_price": null,
-        "quantity": "25",
-        "is_disable": 0,
-        "sku": "200103",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "36oz"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pbs4",
-    "name": "Organic Girl Lettuce",
-    "slug": "organic-girl-lettuce",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/p-4.png",
-      "original": "/assets/images/products/p-4-m.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-4-1.png",
-        "original": "/assets/images/products/p-4-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-4-2.png",
-        "original": "/assets/images/products/p-4-2.png"
-      }
-    ],
-    "quantity": 170,
-    "price": 1.50,
-    "sale_price": null,
-    "unit": "1 Bag",
-    "tag": [
-      {
-        "id": 1,
-        "name": "Fresh food",
-        "slug": "fresh-food"
-      },
-      {
-        "id": 2,
-        "name": "Organic",
-        "slug": "organic"
-      },
-      {
-        "id": 3,
-        "name": "Cilantro",
-        "slug": "cilantro"
-      },
-      {
-        "id": 4,
-        "name": "Dry Food",
-        "slug": "dry-food"
-      }
-    ]
-  },
-  {
-    "id": "pbs5",
-    "name": "Organic Spring Mix",
-    "slug": "organic-spring-mix",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/p-5.png",
-      "original": "/assets/images/products/p-5-m.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-5-1.png",
-        "original": "/assets/images/products/p-5-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-5-2.png",
-        "original": "/assets/images/products/p-5-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-5-3.png",
-        "original": "/assets/images/products/p-5-3.png"
-      }
-    ],
-    "quantity": 270,
-    "price": 3,
-    "sale_price": 2.6,
+    "price": 2.74,
+    "sale_price": 2.64,
     "unit": "1 each",
     "tag": [
       {
@@ -397,223 +134,28 @@
       }
     ]
   },
+  
+
   {
-    "id": "pbs6",
-    "name": "Organic Firm Fresh White Lettuce",
-    "slug": "organic-firm-fresh-white-lettuce",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+    "id": "product12",
+    "name": "mama lemon",
+    "slug": "mama_lemon",
+    "description": "membersikan kotoran sampai kinclong.",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-6.png",
-      "original": "/assets/images/products/p-6-m.png"
+      "thumbnail": "/assets/images/products/mama_lemon.jpg",
+      "original": "/assets/images/products/mama_lemon.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-6-1.png",
-        "original": "/assets/images/products/p-6-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-6-2.png",
-        "original": "/assets/images/products/p-6-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-6-3.png",
-        "original": "/assets/images/products/p-6-3.png"
+        "thumbnail": "/assets/images/products/mama_lemon.jpg",
+        "original": "/assets/images/products/mama_lemon.jpg"
       }
     ],
     "quantity": 70,
-    "price": null,
-    "sale_price": null,
-    "unit": "1 each ",
-    "tag": [
-      {
-        "id": 1,
-        "name": "Fresh food",
-        "slug": "fresh-food"
-      },
-      {
-        "id": 2,
-        "name": "Organic",
-        "slug": "organic"
-      },
-      {
-        "id": 3,
-        "name": "Cilantro",
-        "slug": "cilantro"
-      },
-      {
-        "id": 4,
-        "name": "Dry Food",
-        "slug": "dry-food"
-      }
-    ],
-    "product_type": "variable",
-    "max_price": 5,
-    "min_price": 3,
-    "variations": [
-      {
-        "id": 8,
-        "attribute_id": 3,
-        "value": "12oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 9,
-        "attribute_id": 3,
-        "value": "24oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 10,
-        "attribute_id": 3,
-        "value": "36oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      }
-    ],
-    "variation_options": [
-      {
-        "id": 247,
-        "title": "12oz",
-        "price": 2,
-        "sale_price": null,
-        "quantity": "10",
-        "is_disable": 0,
-        "sku": "200101",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "12oz"
-          }
-        ]
-      },
-      {
-        "id": 248,
-        "title": "24oz",
-        "price": 4,
-        "sale_price": 3.5,
-        "quantity": "35",
-        "is_disable": 0,
-        "sku": "200102",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "24oz"
-          }
-        ]
-      },
-      {
-        "id": 249,
-        "title": "36oz",
-        "price": 5,
-        "sale_price": null,
-        "quantity": "25",
-        "is_disable": 0,
-        "sku": "200103",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "36oz"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pbs7",
-    "name": "Fresh Organic Broccoli",
-    "slug": "fresh-organic-broccoli",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/p-7.png",
-      "original": "/assets/images/products/p-7-m.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "thumbnail": "/assets/images/products/p-7-1.png",
-        "original": "/assets/images/products/p-7-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-7-2.png",
-        "original": "/assets/images/products/p-7-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-7-3.png",
-        "original": "/assets/images/products/p-7-3.png"
-      }
-    ],
-    "quantity": 70,
-    "price": null,
-    "sale_price": null,
+    "price": 2.74,
+    "sale_price": 2.64,
     "unit": "1 each",
     "tag": [
       {
@@ -636,172 +178,31 @@
         "name": "Dry Food",
         "slug": "dry-food"
       }
-    ],
-    "product_type": "variable",
-    "max_price": 8,
-    "min_price": 5,
-    "variations": [
-      {
-        "id": 8,
-        "attribute_id": 3,
-        "value": "10oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "10oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "15oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "20oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 9,
-        "attribute_id": 3,
-        "value": "20oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "10oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "20oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "30oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 10,
-        "attribute_id": 3,
-        "value": "30oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "10oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "20oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "30oz"
-            }
-          ]
-        }
-      }
-    ],
-    "variation_options": [
-      {
-        "id": 247,
-        "title": "10oz",
-        "price": 5,
-        "sale_price": null,
-        "quantity": "10",
-        "is_disable": 0,
-        "sku": "200101",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "10oz"
-          }
-        ]
-      },
-      {
-        "id": 248,
-        "title": "20oz",
-        "price": 7,
-        "sale_price": 6,
-        "quantity": "35",
-        "is_disable": 0,
-        "sku": "200102",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "20oz"
-          }
-        ]
-      },
-      {
-        "id": 249,
-        "title": "30oz",
-        "price": 8,
-        "sale_price": null,
-        "quantity": "25",
-        "is_disable": 0,
-        "sku": "200103",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "30oz"
-          }
-        ]
-      }
     ]
   },
+  
+
   {
-    "id": "pbs8",
-    "name": "Calavo Fresh Avocados ",
-    "slug": "calavo-avocados-fresh-produce",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+    "id": "product13",
+    "name": "Parfum gatsby",
+    "slug": "parfum_gatsby",
+    "description": "Membuat harimu pede. Harum Seharian.",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-8.png",
-      "original": "/assets/images/products/p-8-m.png"
+      "thumbnail": "/assets/images/products/parfum_gatsby.jpg",
+      "original": "/assets/images/products/parfum_gatsby.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-8-1.png",
-        "original": "/assets/images/products/p-8-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-8-2.png",
-        "original": "/assets/images/products/p-8-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-8-1.png",
-        "original": "/assets/images/products/p-8-1.png"
+        "thumbnail": "/assets/images/products/parfum_gatsby.jpg",
+        "original": "/assets/images/products/parfum_gatsby.jpg"
       }
     ],
     "quantity": 70,
-    "price": null,
-    "sale_price": null,
-    "unit": "1 Bag",
+    "price": 2.74,
+    "sale_price": 2.64,
+    "unit": "1 each",
     "tag": [
       {
         "id": 1,
@@ -815,180 +216,38 @@
       },
       {
         "id": 3,
-        "name": "Fruits",
-        "slug": "fruits"
+        "name": "Cilantro",
+        "slug": "cilantro"
       },
       {
         "id": 4,
         "name": "Dry Food",
         "slug": "dry-food"
       }
-    ],
-    "product_type": "variable",
-    "max_price": 40,
-    "min_price": 25,
-    "variations": [
-      {
-        "id": 8,
-        "attribute_id": 3,
-        "value": "12oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 9,
-        "attribute_id": 3,
-        "value": "24oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 10,
-        "attribute_id": 3,
-        "value": "36oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      }
-    ],
-    "variation_options": [
-      {
-        "id": 247,
-        "title": "12oz",
-        "price": 35,
-        "sale_price": null,
-        "quantity": "10",
-        "is_disable": 0,
-        "sku": "200101",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "12oz"
-          }
-        ]
-      },
-      {
-        "id": 248,
-        "title": "24oz",
-        "price": 35,
-        "sale_price": 25,
-        "quantity": "35",
-        "is_disable": 0,
-        "sku": "200102",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "24oz"
-          }
-        ]
-      },
-      {
-        "id": 249,
-        "title": "36oz",
-        "price": 40,
-        "sale_price": null,
-        "quantity": "25",
-        "is_disable": 0,
-        "sku": "200103",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "36oz"
-          }
-        ]
-      }
     ]
   },
+
   {
-    "id": "pbs9",
-    "name": "Fresh Cilantro",
-    "slug": "produce-cilantro-not-packed",
-    "description": "Vegetables are parts of plants that are consumed by humans or other animals as food. the first meaning remains commonly used and is applied to plants collectively to ask all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds. An alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. it's going to exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include savoury fruits like tomatoes and courgettes, flowers like broccoli, and seeds like pulses.",
+    "id": "product14",
+    "name": "Pembalut Charm",
+    "slug": "pembalut_charm",
+    "description": "Ayo SADARI Setelah Menstruasi.",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-9.png",
-      "original": "/assets/images/products/p-9-m.png"
+      "thumbnail": "/assets/images/products/pembalut_charm.jpg",
+      "original": "/assets/images/products/pembalut_charm.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-9-1.png",
-        "original": "/assets/images/products/p-9-1.png"
-      },
-      {
-        "id": 2,
-        "thumbnail": "/assets/images/products/p-9-2.png",
-        "original": "/assets/images/products/p-9-2.png"
-      },
-      {
-        "id": 3,
-        "thumbnail": "/assets/images/products/p-9-3.png",
-        "original": "/assets/images/products/p-9-3.png"
+        "thumbnail": "/assets/images/products/pembalut_charm.jpg",
+        "original": "/assets/images/products/pembalut_charm.jpg"
       }
     ],
     "quantity": 70,
-    "price": null,
-    "sale_price": null,
-    "unit": "1 Bag",
+    "price": 2.74,
+    "sale_price": 2.64,
+    "unit": "1 each",
     "tag": [
       {
         "id": 1,
@@ -1002,147 +261,195 @@
       },
       {
         "id": 3,
-        "name": "Fruits",
-        "slug": "fruits"
+        "name": "Cilantro",
+        "slug": "cilantro"
       },
       {
         "id": 4,
         "name": "Dry Food",
         "slug": "dry-food"
       }
-    ],
-    "product_type": "variable",
-    "max_price": 40,
-    "min_price": 25,
-    "variations": [
+    ]
+  },
+
+  {
+    "id": "product15",
+    "name": "Pepsodent",
+    "slug": "pepsodent",
+    "description": "Siap menjalani hari dengan mulut adem dan nafas segar.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/pepsodent.jpg",
+      "original": "/assets/images/products/pepsodent.jpg"
+    },
+    "gallery": [
       {
-        "id": 8,
-        "attribute_id": 3,
-        "value": "12oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 9,
-        "attribute_id": 3,
-        "value": "24oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
-      },
-      {
-        "id": 10,
-        "attribute_id": 3,
-        "value": "36oz",
-        "attribute": {
-          "id": 3,
-          "slug": "available-in",
-          "name": "Available In",
-          "values": [
-            {
-              "id": 8,
-              "attribute_id": 3,
-              "value": "12oz"
-            },
-            {
-              "id": 9,
-              "attribute_id": 3,
-              "value": "24oz"
-            },
-            {
-              "id": 10,
-              "attribute_id": 3,
-              "value": "36oz"
-            }
-          ]
-        }
+        "id": 1,
+        "thumbnail": "/assets/images/products/pepsodent.jpg",
+        "original": "/assets/images/products/pepsodent.jpg"
       }
     ],
-    "variation_options": [
+    "quantity": 70,
+    "price": 2.74,
+    "sale_price": 2.64,
+    "unit": "1 each",
+    "tag": [
       {
-        "id": 247,
-        "title": "12oz",
-        "price": 35,
-        "sale_price": null,
-        "quantity": "10",
-        "is_disable": 0,
-        "sku": "200101",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "12oz"
-          }
-        ]
+        "id": 1,
+        "name": "Fresh food",
+        "slug": "fresh-food"
       },
       {
-        "id": 248,
-        "title": "24oz",
-        "price": 35,
-        "sale_price": 25,
-        "quantity": "35",
-        "is_disable": 0,
-        "sku": "200102",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "24oz"
-          }
-        ]
+        "id": 2,
+        "name": "Organic",
+        "slug": "organic"
       },
       {
-        "id": 249,
-        "title": "36oz",
-        "price": 40,
-        "sale_price": null,
-        "quantity": "25",
-        "is_disable": 0,
-        "sku": "200103",
-        "options": [
-          {
-            "name": "Available In",
-            "value": "36oz"
-          }
-        ]
+        "id": 3,
+        "name": "Cilantro",
+        "slug": "cilantro"
+      },
+      {
+        "id": 4,
+        "name": "Dry Food",
+        "slug": "dry-food"
+      }
+    ]
+  },
+
+  {
+    "id": "product16",
+    "name": "Pringles",
+    "slug": "pringles",
+    "description": "kripik enak untuk mengumpul bersama teman teman.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/pringles.jpg",
+      "original": "/assets/images/products/pringles.jpg"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/pringles.jpg",
+        "original": "/assets/images/products/pringles.jpg"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.74,
+    "sale_price": 2.64,
+    "unit": "1 each",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Fresh food",
+        "slug": "fresh-food"
+      },
+      {
+        "id": 2,
+        "name": "Organic",
+        "slug": "organic"
+      },
+      {
+        "id": 3,
+        "name": "Cilantro",
+        "slug": "cilantro"
+      },
+      {
+        "id": 4,
+        "name": "Dry Food",
+        "slug": "dry-food"
+      }
+    ]
+  },
+
+  {
+    "id": "product17",
+    "name": "Rumput laut panggang",
+    "slug": "rumputlaut_panggang",
+    "description": "asin,enak,gurih,maknyoss.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/rumputlaut_panggang.jpg",
+      "original": "/assets/images/products/rumputlaut_panggang.jpg"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/rumputlaut_panggang.jpg",
+        "original": "/assets/images/products/rumputlaut_panggang.jpg"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.74,
+    "sale_price": 2.64,
+    "unit": "1 each",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Fresh food",
+        "slug": "fresh-food"
+      },
+      {
+        "id": 2,
+        "name": "Organic",
+        "slug": "organic"
+      },
+      {
+        "id": 3,
+        "name": "Cilantro",
+        "slug": "cilantro"
+      },
+      {
+        "id": 4,
+        "name": "Dry Food",
+        "slug": "dry-food"
+      }
+    ]
+  },
+
+  {
+    "id": "product18",
+    "name": "Sabun Biore",
+    "slug": "sabun_biore",
+    "description": "Fashion yang lagi happening, ya Biore.",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/sabun_biore.jpg",
+      "original": "/assets/images/products/sabun_biore.jpg"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "thumbnail": "/assets/images/products/sabun_biore.jpg",
+        "original": "/assets/images/products/sabun_biore.jpg"
+      }
+    ],
+    "quantity": 70,
+    "price": 2.74,
+    "sale_price": 2.64,
+    "unit": "1 each",
+    "tag": [
+      {
+        "id": 1,
+        "name": "Fresh food",
+        "slug": "fresh-food"
+      },
+      {
+        "id": 2,
+        "name": "Organic",
+        "slug": "organic"
+      },
+      {
+        "id": 3,
+        "name": "Cilantro",
+        "slug": "cilantro"
+      },
+      {
+        "id": 4,
+        "name": "Dry Food",
+        "slug": "dry-food"
       }
     ]
   }
+
 ]
