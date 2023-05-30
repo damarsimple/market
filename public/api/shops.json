@@ -3,7 +3,7 @@
     "id": 1,
     "owner_id": 1,
     "owner_name": "Marcel",    
-    "address": "588 Finfoot Road, New Jersey, East Dover, 08753, USA",
+    "address": "Plaza UNY",
     "phone": "+971-321-4841-78",
     "website": "www.area365mart.com",
     "ratings": "5.00 rating from 1 review",
@@ -12,13 +12,13 @@
     "description": "You will get quality product",
     "cover_image": {
       "id": 1,
-      "thumbnail": "/assets/images/shop/shop-banner-1.jpg",
-      "original": "/assets/images/shop/shop-banner-1.jpg"
+      "thumbnail": "/assets/images/shop/ms-swalayan.png",
+      "original": "/assets/images/shop/ms-swalayan.png"
     },
     "logo": {
       "id": 1,
-      "thumbnail": "/assets/images/shop/shop-logo-1.jpg",
-      "original": "/assets/images/shop/shop-logo-1.jpg"
+      "thumbnail": "/assets/images/shop/ms-swalayan.png",
+      "original": "/assets/images/shop/ms-swalayan.png"
     },
     "created_at": "2018-05-23",
     "updated_at": "2020-05-23"
@@ -27,22 +27,22 @@
     "id": 2,
     "owner_id": 1,
     "owner_name": "Marcel",    
-    "address": "588 Finfoot Road, New Jersey, East Dover, 08753, USA",
+    "address": "Plaza UNY",
     "phone": "+971-321-4841-78",
     "website": "www.area365mart.com",
     "ratings": "5.00 rating from 1 review",
-    "name": "Organic Shop",
-    "slug": "organic-shop",
+    "name": "UNYQua",
+    "slug": "popcorn-shop",
     "description": "You will get quality product",
     "cover_image": {
       "id": 1,
-      "thumbnail": "/assets/images/shop/shop-banner-2.jpg",
-      "original": "/assets/images/shop/shop-banner-2.jpg"
+      "thumbnail": "/assets/images/shop/unyqua.png",
+      "original": "/assets/images/shop/unyqua.png"
     },
     "logo": {
       "id": 1,
-      "thumbnail": "/assets/images/shop/shop-logo-2.jpg",
-      "original": "/assets/images/shop/shop-logo-2.jpg"
+      "thumbnail": "/assets/images/shop/unyqua.png",
+      "original": "/assets/images/shop/unyqua.png"
     },
     "created_at": "2018-05-23",
     "updated_at": "2020-05-23"
