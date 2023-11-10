@@ -12,6 +12,7 @@ import LanguageSwitcher from '@components/ui/language-switcher';
 import { useModalAction } from '@components/common/modal/modal.context';
 import cn from 'classnames';
 import Search from '@components/common/search';
+import useUserStore from 'src/stores/user';
 const AuthMenu = dynamic(() => import('./auth-menu'), { ssr: false });
 const CartButton = dynamic(() => import('@components/cart/cart-button'), {
   ssr: false,
@@ -25,12 +26,15 @@ const Header: React.FC = () => {
   const { t } = useTranslation('common');
   const siteHeaderRef = useRef() as DivElementRef;
   useActiveScroll(siteHeaderRef);
-  function handleLogin() {
-    openModal('LOGIN_VIEW');
-  }
+
   function handleMobileMenu() {
     return openSidebar();
   }
+
+
+  const { user } = useUserStore();
+
+
 
   return (
     <header
@@ -72,18 +76,18 @@ const Header: React.FC = () => {
                   isAuthorized={isAuthorized}
                   href={ROUTES.ACCOUNT}
                   btnProps={{
-                    children: t('text-sign-in'),
-                    onClick: handleLogin,
+                    children: user ? user.name : t('text-sign-in'),
+                    onClick: () => openModal(user ? 'LOGOUT_VIEW' : 'LOGIN_VIEW'),
                   }}
                 >
-                  {t('text-account')}
-                </AuthMenu>
-              </div>
+                {t('text-account')}
+              </AuthMenu>
             </div>
           </div>
-        </Container>
       </div>
-    </header>
+    </Container>
+      </div >
+    </header >
   );
 };
 

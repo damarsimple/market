@@ -12,11 +12,11 @@ function ClientRenderedHightLightedBar() {
   const { t } = useTranslation('common');
   const [highlightedBar, setHighlightedBar] = useSessionStorage(
     'borobazar-highlightedBar',
-    'false'
+    'true'
   );
   return (
     <>
-      {highlightedBar !== 'true' && (
+      {false && highlightedBar !== 'true' && (
         <HighlightedBar
           onClose={() => setHighlightedBar('true')}
           className="text-brand-light]"

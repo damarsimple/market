@@ -1,5 +1,8 @@
 import axios from 'axios';
 import { getToken } from './get-token';
+import { createHttpLink, ApolloClient, InMemoryCache } from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
+import useUserStore from 'src/stores/user';
 
 const http = axios.create({
   baseURL: process.env.NEXT_PUBLIC_REST_API_ENDPOINT,
@@ -26,4 +29,39 @@ http.interceptors.request.use(
   }
 );
 
-export default http;
+const httpLink = createHttpLink({
+
+  uri: 'http://localhost:4000/graphql',
+
+});
+
+
+const authLink = setContext((_, { headers }) => {
+
+  // get the authentication token from local storage if it exists
+
+  const token = useUserStore.getState().token
+  // return the headers to the context so httpLink can read them
+
+  return {
+
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : "",
+    }
+
+  }
+
+});
+
+
+const client = new ApolloClient({
+
+  link: authLink.concat(httpLink),
+
+  cache: new InMemoryCache()
+
+});
+
+
+export default client;

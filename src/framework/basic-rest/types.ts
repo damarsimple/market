@@ -97,6 +97,10 @@ export type Product = {
   description?: string;
   variations?: object;
   [key: string]: unknown;
+  store?: {
+    id: string
+    name: string
+  }
 };
 export type OrderItem = {
   id: number | string;

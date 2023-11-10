@@ -11,8 +11,8 @@ export const siteSettings = {
   description:
     'UNY Store adalah toko kelontong dan swalayan yang menyediakan berbagai macam kebutuhan sehari-hari.',
   author: {
-    name: 'REDQ',
-    websiteUrl: 'https://redq.io',
+    name: 'DKSIU',
+    websiteUrl: 'https://dksiu.uny.ac.id',
     address: '',
   },
   logo: {
@@ -22,67 +22,67 @@ export const siteSettings = {
     width: 128,
     height: 30,
   },
-  defaultLanguage: 'en',
+  defaultLanguage: 'id',
   currencyCode: 'IDR',
   site_header: {
     menu: [
-      {
-        id: 1,
-        path: '/',
-        label: 'menu-demos',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-modern',
-          },
-          {
-            id: 2,
-            path: '/classic',
-            label: 'menu-classic',
-          },
-          {
-            id: 3,
-            path: '/vintage',
-            label: 'menu-vintage',
-          },
-          {
-            id: 4,
-            path: '/standard',
-            label: 'menu-standard',
-          },
-          {
-            id: 5,
-            path: '/minimal',
-            label: 'menu-minimal',
-          },
-          {
-            id: 6,
-            path: '/trendy',
-            label: 'menu-trendy',
-          },
-          {
-            id: 7,
-            path: '/elegant',
-            label: 'menu-elegant',
-          },
-          {
-            id: 8,
-            path: '/refined',
-            label: 'menu-refined',
-          },
-          {
-            id: 9,
-            path: '/antique',
-            label: 'menu-antique',
-          },
-          {
-            id: 10,
-            path: '/ancient',
-            label: 'menu-ancient',
-          },
-        ],
-      },
+      // {
+      //   id: 1,
+      //   path: '/',
+      //   label: 'menu-demos',
+      //   subMenu: [
+      //     {
+      //       id: 1,
+      //       path: '/',
+      //       label: 'menu-modern',
+      //     },
+      //     {
+      //       id: 2,
+      //       path: '/classic',
+      //       label: 'menu-classic',
+      //     },
+      //     {
+      //       id: 3,
+      //       path: '/vintage',
+      //       label: 'menu-vintage',
+      //     },
+      //     {
+      //       id: 4,
+      //       path: '/standard',
+      //       label: 'menu-standard',
+      //     },
+      //     {
+      //       id: 5,
+      //       path: '/minimal',
+      //       label: 'menu-minimal',
+      //     },
+      //     {
+      //       id: 6,
+      //       path: '/trendy',
+      //       label: 'menu-trendy',
+      //     },
+      //     {
+      //       id: 7,
+      //       path: '/elegant',
+      //       label: 'menu-elegant',
+      //     },
+      //     {
+      //       id: 8,
+      //       path: '/refined',
+      //       label: 'menu-refined',
+      //     },
+      //     {
+      //       id: 9,
+      //       path: '/antique',
+      //       label: 'menu-antique',
+      //     },
+      //     {
+      //       id: 10,
+      //       path: '/ancient',
+      //       label: 'menu-ancient',
+      //     },
+      //   ],
+      // },
       {
         id: 2,
         path: '/search',

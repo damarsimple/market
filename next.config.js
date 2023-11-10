@@ -1,3 +1,4 @@
+
 /**
  * @type {import('next').NextConfig}
  */
@@ -20,4 +21,9 @@ module.exports = withPWA({
       ignoreDuringBuilds: true,
     },
   }),
+
+  // allowed image domains
+  images: {
+    domains: ['images.unsplash.com', "loremflickr.com", "localhost"],
+  },
 });

@@ -26,6 +26,10 @@ const CategoryPopup = dynamic(
   () => import('@components/category/category-popup')
 );
 
+const LogoutForm = dynamic(
+  () => import('@components/auth/logout-form'));
+
+
 export default function ManagedModal() {
   const { isOpen, view } = useModalState();
   const { closeModal } = useModalAction();
@@ -41,6 +45,7 @@ export default function ManagedModal() {
   return (
     <Modal open={isOpen} onClose={closeModal}>
       {view === 'LOGIN_VIEW' && <LoginForm />}
+      {view === 'LOGOUT_VIEW' && <LogoutForm />}
       {view === 'SIGN_UP_VIEW' && <SignUpForm />}
       {view === 'FORGET_PASSWORD' && <ForgetPasswordForm />}
       {view === 'PRODUCT_VIEW' && <ProductPopup />}

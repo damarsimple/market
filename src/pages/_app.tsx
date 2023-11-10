@@ -22,9 +22,20 @@ import '@assets/css/globals.css';
 import '@assets/css/rc-drawer.css';
 import { getDirection } from '@utils/get-direction';
 
+import { GoogleOAuthProvider } from '@react-oauth/google';
+import { ApolloProvider } from '@apollo/client';
+import client from '@framework/utils/http';
+
+
+
+
+const GOOGLE_ID = process.env.NEXT_PUBLIC_GOOGLE_ID
+
 function Noop({ children }: React.PropsWithChildren<{}>) {
   return <>{children}</>;
 }
+
+
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
   const queryClientRef = useRef<any>();
@@ -39,23 +50,31 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
   const Layout = (Component as any).Layout || Noop;
 
   return (
-    <QueryClientProvider client={queryClientRef.current}>
-      {/* @ts-ignore */}
-      <Hydrate state={pageProps.dehydratedState}>
-        <ManagedUIContext>
-          <>
-            <DefaultSeo />
-            <Layout pageProps={pageProps}>
-              <Component {...pageProps} key={router.route} />
-            </Layout>
-            <ToastContainer />
-            <ManagedModal />
-            <ManagedDrawer />
-          </>
-        </ManagedUIContext>
-      </Hydrate>
-      {/* <ReactQueryDevtools /> */}
-    </QueryClientProvider>
+    <ApolloProvider client={client}>
+
+      <GoogleOAuthProvider
+        clientId={GOOGLE_ID!}
+      >
+
+        <QueryClientProvider client={queryClientRef.current}>
+          {/* @ts-ignore */}
+          <Hydrate state={pageProps.dehydratedState}>
+            <ManagedUIContext>
+              <>
+                <DefaultSeo />
+                <Layout pageProps={pageProps}>
+                  <Component {...pageProps} key={router.route} />
+                </Layout>
+                <ToastContainer />
+                <ManagedModal />
+                <ManagedDrawer />
+              </>
+            </ManagedUIContext>
+          </Hydrate>
+          {/* <ReactQueryDevtools /> */}
+        </QueryClientProvider>
+      </GoogleOAuthProvider>
+    </ApolloProvider>
   );
 };
 

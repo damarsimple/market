@@ -16,39 +16,23 @@ import { useGoogleLogin } from "@react-oauth/google";
 import axios from 'axios';
 import { useRouter } from 'next/router';
 import useUserStore from 'src/stores/user';
-interface LoginFormProps {
+interface LogoutFormProps {
   isPopup?: boolean;
   className?: string;
 }
 
-const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
+const LogoutForm: React.FC<LogoutFormProps> = ({ isPopup = true, className }) => {
   const { t } = useTranslation();
   const { closeModal, openModal } = useModalAction();
 
-  const { setToken,setUser } = useUserStore();
-  const router = useRouter();
-  const login = useGoogleLogin({
-    onSuccess: async (codeResponse) => {
-      if (codeResponse.hd?.includes("uny.ac.id")) {
-        const accessToken = codeResponse?.access_token as string;
+  const { setToken, setUser, user } = useUserStore();
 
-        const ourToken = await axios.post<any, any>("http://localhost:4000/auth/google/callback", {
-          token: accessToken,
-        });
 
-        if (ourToken) {
-          setToken(ourToken.data.token);
-          setUser(ourToken.data.user);
-          closeModal();
-          // router.push('/');
-        }
-      } else {
-        alert("Anda harus login dengan SSO UNY.");
-      }
-    },
-    onError: (error) => console.log("Login Failed:", error),
-  });
-
+  function logout() {
+    setToken("");
+    setUser(undefined);
+    closeModal();
+  }
 
   return (
     <div
@@ -68,8 +52,8 @@ const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
             <div onClick={closeModal}>
               <Logo />
             </div>
-            <h4 className="text-xl font-semibold text-brand-dark sm:text-2xl sm:pt-3 ">
-              {t('common:text-welcome-back')}
+            <h4 className="text-md font-semibold text-brand-dark sm:text-2xl sm:pt-3 ">
+              Anda yakin keluar dari akun {user?.email}?
             </h4>
             {/* <div className="mt-3 mb-1 text-sm text-center sm:text-15px text-body">
               {t('common:text-don’t-have-account')}
@@ -153,12 +137,12 @@ const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
           <div className="flex justify-center mt-5 space-x-2.5">
             <button
               className="flex gap-2 items-center justify-center w-full h-14 transition-all border rounded-full cursor-pointer group border-border-one hover:border-brand focus:border-brand focus:outline-none"
-              onClick={()=> login()}
+              onClick={() => logout()}
             >
               <FaGoogle className="w-4 h-4 text-opacity-50 transition-all text-brand-dark group-hover:text-brand " />
-              Login SSO
+              Logout
             </button>
-        
+
           </div>
         </div>
       </div>
@@ -166,4 +150,4 @@ const LoginForm: React.FC<LoginFormProps> = ({ isPopup = true, className }) => {
   );
 };
 
-export default LoginForm;
+export default LogoutForm;
