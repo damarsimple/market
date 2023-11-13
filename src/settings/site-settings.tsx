@@ -90,55 +90,28 @@ export const siteSettings = {
         subMenu: [
           {
             id: 1,
-            path: '/search',
+            path: '/search?category=fresh-vegetables',
             label: 'menu-fresh-vegetables',
           },
           {
             id: 2,
-            path: '/search',
+            path: '/search?category=diet-nutrition',
             label: 'menu-diet-nutrition',
           },
           {
             id: 3,
-            path: '/search',
+            path: '/search?category=healty-foods',
             label: 'menu-healthy-foods',
           },
           {
             id: 4,
-            path: '/search',
+            path: '/search?category=grocery-items',
             label: 'menu-grocery-items',
           },
           {
             id: 5,
-            path: '/search',
+            path: '/search?category=beaf-steak',
             label: 'menu-beaf-steak',
-          },
-        ],
-      },
-      {
-        id: 3,
-        path: '/search',
-        label: 'menu-dietary',
-        subMenu: [
-          {
-            id: 1,
-            path: '/search',
-            label: 'menu-vegetarian',
-          },
-          {
-            id: 2,
-            path: '/search',
-            label: 'menu-kakogenic',
-          },
-          {
-            id: 3,
-            path: '/search',
-            label: 'menu-mediterranean',
-          },
-          {
-            id: 4,
-            path: '/search',
-            label: 'menu-organic',
           },
         ],
       },

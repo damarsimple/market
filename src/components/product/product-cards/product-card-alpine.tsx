@@ -1,14 +1,20 @@
 import cn from 'classnames';
-import Image from '@components/ui/image';
-import usePrice from '@framework/product/use-price';
-import { Product } from '@framework/types';
-import { useModalAction } from '@components/common/modal/modal.context';
-import useWindowSize from '@utils/use-window-size';
-import { Eye } from '@components/icons/eye-icon';
-import { useCart } from '@contexts/cart/cart.context';
-import { useTranslation } from 'next-i18next';
-import { productPlaceholder } from '@assets/placeholders';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
+
+import Image from '@components/ui/image';
+import { Eye } from '@components/icons/eye-icon';
+
+import { useCart } from '@contexts/cart/cart.context';
+import usePrice from '@framework/product/use-price';
+
+import { productPlaceholder } from '@assets/placeholders';
+import { ROUTES } from '@utils/routes';
+import useWindowSize from '@utils/use-window-size';
+import { useModalAction } from '@components/common/modal/modal.context';
+import { Product } from '@framework/types';
+
 const AddToCart = dynamic(() => import('@components/product/add-to-cart'), {
   ssr: false,
 });
@@ -19,7 +25,6 @@ interface ProductProps {
 }
 function RenderPopupOrAddToCart({ props }: { props: Object }) {
   let { data }: any = props;
-  // console.log(variant);
   const { t } = useTranslation('common');
   const { id, quantity, product_type } = data ?? {};
   const { width } = useWindowSize();
@@ -51,8 +56,8 @@ function RenderPopupOrAddToCart({ props }: { props: Object }) {
   return <AddToCart data={data} variant="mercury" />;
 }
 const ProductCardAlpine: React.FC<ProductProps> = ({ product, className }) => {
-  const { name, image, store, product_type } = product ?? {};
-  const { openModal } = useModalAction();
+  const { name, image, store, product_type, slug } = product ?? {};
+
   const { t } = useTranslation('common');
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
@@ -68,16 +73,13 @@ const ProductCardAlpine: React.FC<ProductProps> = ({ product, className }) => {
     currencyCode: 'IDR',
   });
 
-  function handlePopupView() {
-    openModal('PRODUCT_VIEW', product);
-  }
   return (
-    <article
+    <Link
       className={cn(
         'flex flex-col group overflow-hidden rounded-md cursor-pointer transition-all duration-300 shadow-card hover:shadow-cardHover relative h-full',
         className
       )}
-      onClick={handlePopupView}
+      href={`${ROUTES.PRODUCT}/${slug}`}
       title={name}
     >
       <div className="relative shrink-0">
@@ -120,11 +122,9 @@ const ProductCardAlpine: React.FC<ProductProps> = ({ product, className }) => {
         <h2 className="text-brand-dark text-13px sm:text-sm lg:text-15px leading-5 sm:leading-6 mb-1.5">
           {name}
         </h2>
-        <div className="mt-auto text-13px sm:text-sm">{
-          store?.name as any
-        }</div>
+        <div className="mt-auto text-13px sm:text-sm">{store?.name as any}</div>
       </div>
-    </article>
+    </Link>
   );
 };
 
